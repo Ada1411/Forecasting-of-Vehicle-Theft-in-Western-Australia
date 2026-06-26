@@ -7,6 +7,7 @@ A time-series analysis and predictive modeling project for WA vehicle theft data
 - Dataset contains two variables: Time Index (Month-Year) and number of Motor Vehicle theft incidents
 <img width="958" height="548" alt="image" src="https://github.com/user-attachments/assets/e3a78d44-82ad-476e-b321-e2ddd3de5bf2" />
 
+Despite a decline in vehicle theft between middle of 2022 and middle of 2025, the trend relatively bounced back from Aug 2025 to Mar 2026. This trend raises a question of whether this is simply a seasonal irregularity or a trend adjustment. 
 ## 2. Forecasting Techniques
 We compare metric performance of Holt-Winter (HW), Prophet, and SARIMA models that well-capture trend and seasonality appearing in the data. Then, from the comparation, we can choose the best technique to forecast. 
 
